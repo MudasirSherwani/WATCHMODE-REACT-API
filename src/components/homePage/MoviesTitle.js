@@ -19,7 +19,7 @@ const MoviesTitle = () => {
       <div className="container">
         {moviesStat.map((titles) => (
           <div key={titles.id}>
-            <MoviesTitleItems title={titles.title} />
+            <MoviesTitleItems title={titles.title} id={titles.id} />
           </div>
         ))}
       </div>
