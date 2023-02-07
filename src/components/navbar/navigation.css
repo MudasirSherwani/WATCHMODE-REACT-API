@@ -1,0 +1,51 @@
+.navigation {
+  background-color: #ec4c8a;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.app-heading {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+
+.feature-icons {
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+}
+
+.icon-btn {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  color: white;
+}
+
+/* for desctop version */
+@media only screen and (min-width: 768px) {
+  .navigation {
+    gap: 25px;
+    display: flex;
+    align-items: center;
+  }
+
+  .app-heading {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+  }
+
+  .icon-btn {
+    margin-top: -10px;
+    width: 32px;
+    height: 32px;
+  }
+}
