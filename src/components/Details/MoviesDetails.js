@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { CallMoviesApi } from '../../redux/fetch-movies-titles';
 import MoviesDetailItems from './MoviesDetailItems';
+import './detailpage.css';
 
 const MoviesTitle = () => {
   const dispatch = useDispatch();
@@ -14,8 +15,8 @@ const MoviesTitle = () => {
   },
   [dispatch]);
   return (
-    <div className="context">
-      <div className="container">
+    <div className="detail-parent" data-testid="detailpage">
+      <div className="detail-items">
         {moviesStat.map((detail) => (
           <div key={detail.id}>
             <MoviesDetailItems
@@ -27,6 +28,11 @@ const MoviesTitle = () => {
               poster={detail.poster}
               trailer={detail.trailer}
               releasedate={detail.release_date}
+              imdbid={detail.imdb_id}
+              usrating={detail.us_rating}
+              year={detail.year}
+              originallanguage={detail.original_language}
+
             />
           </div>
         ))}
