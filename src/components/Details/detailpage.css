@@ -56,8 +56,8 @@ td {
 .title {
   font-family: Poppins, sans-serif;
   font-size: 16px;
-  margin-top: 40px;
-  color: white;
+  margin-top: 10px;
+  color: rgb(255, 255, 255);
 }
 
 .trailer {
