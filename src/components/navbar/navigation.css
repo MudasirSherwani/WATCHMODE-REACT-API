@@ -9,7 +9,6 @@
   justify-content: space-between;
   padding: 3px;
   top: 0;
-
 }
 
 .back-btn-area {
@@ -55,7 +54,6 @@
     width: 100%;
     display: flex;
     align-items: center;
-
   }
 
   .app-heading {
@@ -64,7 +62,6 @@
     font-weight: 700;
     text-decoration: none;
     font-size: 24px;
-
   }
 
   .icon-btn {

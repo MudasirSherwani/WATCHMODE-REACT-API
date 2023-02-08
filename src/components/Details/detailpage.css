@@ -41,7 +41,6 @@ h1 {
   border-radius: 0 0 10px 10px;
   font-size: 14px;
   height: 100%;
-
 }
 
 tr:nth-child(even) { background-color: #ec4c8a; }
@@ -77,15 +76,15 @@ td {
   color: white;
   font-weight: 300;
   text-align: justify;
-  margin: 15px;
+  margin: 10px;
 }
 
-.desc > h4 {
+h4 {
   color: white;
   font-weight: 100;
+  margin: 15px;
   margin-bottom: 30px;
 }
-
 
 /* desktop version */
 @media only screen and (min-width: 768px) {
@@ -108,7 +107,6 @@ td {
     text-align: center;
     flex-direction: column;
     justify-content: center;
-
   }
 
   .poster {
@@ -131,5 +129,10 @@ td {
     height: 100%;
     border-radius: 0 0 10px 10px;
     font-size: 20px;
+  }
+
+  h4 {
+    font-weight: 200;
+    margin-bottom: 50px;
   }
 }

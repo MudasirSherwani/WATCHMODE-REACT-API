@@ -64,7 +64,7 @@ const MoviesTitleItems = (props) => {
           </tbody>
         </table>
         <h3 className="desc">Descriptions</h3>
-        <h4 className="desc">{plotoverview}</h4>
+        <h4>{plotoverview}</h4>
       </div>
     </div>
   );
