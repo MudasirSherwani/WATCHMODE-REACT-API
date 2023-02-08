@@ -8,8 +8,6 @@ const MoviesTitle = () => {
   const dispatch = useDispatch();
   const moviesStat1 = useSelector((state) => state.movieDetails.data);
   const moviesStat = [moviesStat1];
-  console.log('comp');
-  console.log(moviesStat);
   useEffect(() => {
     dispatch(CallMoviesApi());
   },
