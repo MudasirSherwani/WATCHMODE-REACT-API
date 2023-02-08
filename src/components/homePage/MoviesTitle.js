@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { CallMoviesApi } from '../../redux/fetch-movies-titles';
 import MoviesTitleItems from './MoviesTitleItems';
+import './homepage.css';
 
 const MoviesTitle = () => {
   const dispatchMoviesState = useDispatch();
@@ -18,7 +19,7 @@ const MoviesTitle = () => {
     <div className="context">
       <div className="container">
         {moviesStat.map((titles) => (
-          <div key={titles.id}>
+          <div aria-hidden="true" key={titles.id} className="hidden-div">
             <MoviesTitleItems title={titles.title} id={titles.id} />
           </div>
         ))}
