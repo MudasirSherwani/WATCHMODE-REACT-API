@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { CallMoviesApi } from '../../redux/fetch-movies-titles';
 import MoviesTitleItems from './MoviesTitleItems';
@@ -6,24 +6,41 @@ import './homepage.css';
 
 const MoviesTitle = () => {
   const dispatchMoviesState = useDispatch();
-
+  const [selectedYear, setSelectedYear] = useState(2023);
   const moviesStat = useSelector((state) => state.moviesTitle);
-  console.log('comp');
-  console.log(moviesStat);
   useEffect(() => {
     dispatchMoviesState(CallMoviesApi());
   },
   [dispatchMoviesState]);
 
+  const handleYearSelection = (event) => {
+    setSelectedYear(event.target.value);
+  };
+
+  const filteredData = moviesStat.filter((item) => item.year === Number(selectedYear));
+  const distinctYears = [...new Set(moviesStat.map((x) => x.year))];
   return (
-    <div className="context">
-      <div className="container">
-        {moviesStat.map((titles) => (
-          <div aria-hidden="true" key={titles.id} className="hidden-div">
-            <MoviesTitleItems title={titles.title} id={titles.id} />
-          </div>
-        ))}
+    <div>
+      <did className="list-container">
+        <select onChange={handleYearSelection}>
+          <option value={2023}>-- Select Movie Year --</option>
+          {distinctYears.map((item) => (
+            <option key={item} value={item}>
+              {item}
+            </option>
+          ))}
+        </select>
+      </did>
+      <div className="context">
+        <div className="container">
+          {filteredData.map((titles) => (
+            <div aria-hidden="true" key={titles.id} className="hidden-div">
+              <MoviesTitleItems title={titles.title} id={titles.id} />
+            </div>
+          ))}
+        </div>
       </div>
+
     </div>
   );
 };
