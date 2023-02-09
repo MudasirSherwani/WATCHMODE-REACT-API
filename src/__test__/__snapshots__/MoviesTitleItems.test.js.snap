@@ -13,6 +13,7 @@ exports[`Check Changes in the Movies Title 1`] = `
       className="movie-icon"
       fill="currentColor"
       height={50}
+      id={1}
       onClick={[Function]}
       stroke="currentColor"
       strokeWidth="0"
@@ -37,7 +38,9 @@ exports[`Check Changes in the Movies Title 1`] = `
     </svg>
     <h3
       className="title-home"
-    />
+    >
+      Movie Name Here
+    </h3>
   </div>
 </div>
 `;

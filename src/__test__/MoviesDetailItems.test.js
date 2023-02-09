@@ -4,14 +4,14 @@ import renderer from 'react-test-renderer';
 import { Provider } from 'react-redux';
 import '@testing-library/jest-dom';
 import store from '../redux/configureStore';
-import MoviesTitleItems from '../components/homepage/MoviesTitleItems';
+import MoviesDetailItems from '../components/Details/MoviesDetailItems';
 
-it('Check Changes in the Movies Title', () => {
+it('Check Changes in the Detail Page', () => {
   const tree = renderer.create(
     <Provider store={store}>
       <Router>
         <Routes>
-          <Route path="/" element={<MoviesTitleItems title="Movie Name Here" id={1} />} />
+          <Route path="/" element={<MoviesDetailItems />} />
         </Routes>
       </Router>
     </Provider>,
@@ -24,14 +24,14 @@ it('Check rendering of div', () => {
     <Provider store={store}>
       <Router>
         <Routes>
-          <Route path="/" element={<MoviesTitleItems title="Movie Name Here" id={1} />} />
+          <Route path="/" element={<MoviesDetailItems title="title" />} />
         </Routes>
       </Router>
     </Provider>,
 
   );
 
-  const homepage = screen.getByTestId('home-page');
+  const detailPage = screen.getByTestId('detailpagecontainer');
 
-  expect(homepage).toBeInTheDocument();
+  expect(detailPage).toBeInTheDocument();
 });

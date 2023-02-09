@@ -6,7 +6,7 @@ import { RiMovieFill } from 'react-icons/ri';
 import { fetchDetailData } from '../../redux/fetch-movies-details';
 import './homepage.css';
 
-const MoviesTitleItems = (props) => {  
+const MoviesTitleItems = (props) => {
   const { id, title } = props;
   const dispatch = useDispatch();
   const navigate = useNavigate();
@@ -26,8 +26,8 @@ const MoviesTitleItems = (props) => {
 };
 
 MoviesTitleItems.propTypes = {
-  title: PropTypes.string,
-  id: PropTypes.number,
+  title: PropTypes.string.isRequired,
+  id: PropTypes.number.isRequired,
 };
 
 export default MoviesTitleItems;

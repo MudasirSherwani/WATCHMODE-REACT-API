@@ -4,7 +4,7 @@ import { CallMoviesApi } from '../../redux/fetch-movies-titles';
 import MoviesDetailItems from './MoviesDetailItems';
 import './detailpage.css';
 
-const MoviesTitle = () => {
+const MoviesDetails = () => {
   const dispatch = useDispatch();
   const moviesStat1 = useSelector((state) => state.movieDetails.data);
   const moviesStat = [moviesStat1];
@@ -13,7 +13,7 @@ const MoviesTitle = () => {
   },
   [dispatch]);
   return (
-    <div className="detail-parent" data-testid="detailpage">
+    <div className="detail-parent">
       <div className="detail-items">
         {moviesStat.map((detail) => (
           <div key={detail.id}>
@@ -39,4 +39,4 @@ const MoviesTitle = () => {
   );
 };
 
-export default MoviesTitle;
+export default MoviesDetails;

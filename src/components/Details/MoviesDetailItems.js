@@ -2,7 +2,7 @@ import React from 'react';
 import { PropTypes } from 'prop-types';
 import './detailpage.css';
 
-const MoviesTitleItems = (props) => {
+const MoviesDetailItems = (props) => {
   const {
     title,
     plotoverview,
@@ -70,11 +70,11 @@ const MoviesTitleItems = (props) => {
   );
 };
 
-MoviesTitleItems.defaultProps = {
+MoviesDetailItems.defaultProps = {
   title: 'Movie Name',
 };
-MoviesTitleItems.propTypes = {
+MoviesDetailItems.propTypes = {
   title: PropTypes.string,
 };
 
-export default MoviesTitleItems;
+export default MoviesDetailItems;
