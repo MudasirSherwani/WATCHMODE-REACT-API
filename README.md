@@ -68,10 +68,11 @@ The details page has data about the details of the movie and users can see relea
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [WATCHMODE-REACT-API](https://development--watchmode-react.netlify.app/)
+- [Live Demo on Netlify](https://development--watchmode-react.netlify.app/)
+
+- [Vedio Presentation on Loom](https://www.loom.com/share/60a1f98e08bb48f9968c0e9d5077978f)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -80,7 +81,6 @@ The details page has data about the details of the movie and users can see relea
 - Extract and open repo folder into visual studio code or any other Text Editor Software.
 - GitHub Repositry URL: https://github.com/MudasirSherwani/WATCHMODE-REACT-API.git
   To get a local copy up and running follow these simple example steps.
-
 
 ### Prerequisites
 - Visual Studio Code
@@ -100,7 +100,6 @@ Install this project with:
 ```sh
   npm install
 ```
-
 
 ### Usage
 
@@ -126,7 +125,6 @@ https://netlify.app/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## Authors
 
 👤 **Mudasir Sherwani**
@@ -135,10 +133,7 @@ https://netlify.app/
 - Twitter: [@Mudasir Sherwani](https://twitter.com/mudasirsherwani)
 - LinkedIn: [Mudasir Sherwani](https://www.linkedin.com/in/mudasir-sherwani/)
 
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## 🔭 Future Features <a name="future-features"></a>
 
@@ -174,10 +169,8 @@ WATCHMODE to provide me API link.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](https://github.com/MudasirSherwani/WATCHMODE-REACT-API/blob/Development/LICENSE.md) licensed.
  
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
