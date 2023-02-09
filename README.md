@@ -70,7 +70,7 @@ The details page has data about the details of the movie and users can see relea
 
 - [Live Demo on Netlify](https://development--watchmode-react.netlify.app/)
 
-- [Vedio Presentation on Loom](https://www.loom.com/share/60a1f98e08bb48f9968c0e9d5077978f)
+- [Vedio Presentation on Loom](https://www.loom.com/share/61a5ba780ce1460da05d97fada3a2b3b)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
