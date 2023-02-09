@@ -1,70 +1,181 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
+# 📖 WATCHMODE-REACT-API <a name="about-project"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This React capstone project is about building a mobile web application to check a list of metrics (numeric values) that has been created by making use of React and Redux.
+WATCHMODE API that provides data about movies.
+The web application has several pages:
+Home page with a list of years that could be filtered by year parameters. Users can view movie titles according to the selected year.
+The details page has data about the details of the movie and users can also watch its trailer.
 
-## Available Scripts
+# 📗 Table of Contents
 
-In the project directory, you can run:
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠 Built With <a name="built-with"></a>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Tech Stack <a name="tech-stack"></a>
+- HTML
+- CSS
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [React](https://github.com/microverseinc/curriculum-javascript/blob/main/todo-list/lessons/webpack_v1_1.md)
+- [Redux]
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://netlify.app/">Netlify</a></li>
+  </ul>
+</details>
 
-### `npm test`
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a>watchmode API </a></li>
+  </ul>
+</details>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Key Features <a name="key-features"></a>
 
-### `npm run build`
+**List of Movies : HomePage**
+The home page displays a list of all movies. Users can view movie titles according to the selected year.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Detail Page**
+The details page has data about the details of the movie and users can see release date, rating, run time minutes, imdb Id and also watch its trailer.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🚀 Live Demo <a name="live-demo"></a>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [Space Traverlers Hub](https://watchmode-react.netlify.app/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 💻 Getting Started <a name="getting-started"></a>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Open GitHub URL of repositry.
+- Download Code repo in zip.
+- Extract and open repo folder into visual studio code or any other Text Editor Software.
+- GitHub Repositry URL: https://github.com/MudasirSherwani/WATCHMODE-REACT-API.git
+  To get a local copy up and running follow these simple example steps.
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Prerequisites
+- Visual Studio Code
+- Knowldege About HTML / CSS / JAVASCRIPT ES6
+- Webhint
+- Stylelint
+- ESLint
+- node_modules checker
+- Github
+- React
+- Redux
 
-### Analyzing the Bundle Size
+### Install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Install this project with:
 
-### Making a Progressive Web App
+```sh
+  npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+### Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+To run the project in a development server, execute the following command:
+
+```sh
+  npm start
+```
+
+### Testing
+
+To run the tests in a development server, execute the following command:
+
+```sh
+  npm test
+```
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+You can deploy this project using:
 
-### `npm run build` fails to minify
+https://netlify.app/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## Authors
+
+👤 **Mudasir Sherwani**
+
+- GitHub: [@Mudasir Sherwani](https://github.com/MudasirSherwani)
+- Twitter: [@Mudasir Sherwani](https://twitter.com/mudasirsherwani)
+- LinkedIn: [Mudasir Sherwani](https://www.linkedin.com/in/mudasir-sherwani/)
+
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 🔭 Future Features <a name="future-features"></a>
+
+
+- [ ] **Add thumbnail at Homepage**
+- [ ] **Add Media Player**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/MudasirSherwani/WATCHMODE-REACT-API/issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project please follow me on github and give stars to my repo.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+
+I would like to thanks Microverse to guide me to complete this project.
+Again i would like to thanks to:
+Nelson Sakwa on Behance for Design.
+WATCHMODE to provide me API link.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](https://github.com/MudasirSherwani/WATCHMODE-REACT-API/blob/Development/LICENSE.md) licensed.
+ 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
