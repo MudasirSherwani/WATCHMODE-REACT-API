@@ -16,7 +16,7 @@ const MoviesTitleItems = (props) => {
   };
 
   return (
-    <div className="container1" data-testid="homepageitem">
+    <div className="container1" data-testid="home-page">
       <div className="item">
         <RiMovieFill id={id} size={50} onClick={showDetails} className="movie-icon" alt="movies icon" />
         <h3 className="title-home">{title}</h3>
