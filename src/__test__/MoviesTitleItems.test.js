@@ -11,7 +11,7 @@ it('Check Changes in the Movies Title', () => {
     <Provider store={store}>
       <Router>
         <Routes>
-          <Route path="/" element={<MoviesTitleItems title="Movie Name Here" id={1} />} />
+          <Route path="/" element={<MoviesTitleItems title="Movie Name Here" id={1} year={2022} />} />
         </Routes>
       </Router>
     </Provider>,
@@ -24,7 +24,7 @@ it('Check rendering of div', () => {
     <Provider store={store}>
       <Router>
         <Routes>
-          <Route path="/" element={<MoviesTitleItems title="Movie Name Here" id={1} />} />
+          <Route path="/" element={<MoviesTitleItems title="Movie Name Here" id={1} year={2022} />} />
         </Routes>
       </Router>
     </Provider>,

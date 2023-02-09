@@ -41,6 +41,12 @@ exports[`Check Changes in the Movies Title 1`] = `
     >
       Movie Name Here
     </h3>
+    <h6
+      className="year-home"
+    >
+      Year-
+      2022
+    </h6>
   </div>
 </div>
 `;
