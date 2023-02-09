@@ -7,7 +7,7 @@ import './homepage.css';
 
 const MoviesTitle = () => {
   const dispatchMoviesState = useDispatch();
-  const [selectedYear, setSelectedYear] = useState(2023);
+  const [selectedYear, setSelectedYear] = useState(2022);
   const moviesStat = useSelector((state) => state.moviesTitle);
   useEffect(() => {
     dispatchMoviesState(CallMoviesApi());
@@ -24,7 +24,7 @@ const MoviesTitle = () => {
     <div>
       <div className="list-container">
         <select onChange={handleYearSelection}>
-          <option value={2023}>-- Select Movie Year --</option>
+          <option value={2022}>-- Select Movie Year --</option>
           {distinctYears.map((item) => (
             <option key={uuidv4()} value={item}>
               {item}
@@ -36,7 +36,7 @@ const MoviesTitle = () => {
         <div className="container">
           {filteredData.map((titles) => (
             <div aria-hidden="true" key={titles.id} className="hidden-div">
-              <MoviesTitleItems title={titles.title} id={titles.id} />
+              <MoviesTitleItems title={titles.title} id={titles.id} year={titles.year} />
             </div>
           ))}
         </div>

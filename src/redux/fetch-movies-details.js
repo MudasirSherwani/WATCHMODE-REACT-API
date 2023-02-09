@@ -19,7 +19,7 @@ const fetchDataFailure = (error) => ({
 export const fetchDetailData = (id) => async (dispatch) => {
   dispatch(fetchDataRequest());
   try {
-    const res = await fetch(`https://api.watchmode.com/v1/title/${id}/details/?apiKey=9rpd8NLIeENAxsQeMCxt33h68sxWClnJykcn4n1X`);
+    const res = await fetch(`https://api.watchmode.com/v1/title/${id}/details/?apiKey=teNzOyLosMVfKpJcle1fpVDEB3Er7pEtuouvuUZq`);
     const data = await res.json();
     return dispatch(fetchDataSuccess(data));
   } catch (error) {

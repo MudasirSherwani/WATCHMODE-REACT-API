@@ -1,6 +1,6 @@
 const GET_MOVIES = 'redux/GET_MOVIES';
 
-const url = 'https://api.watchmode.com/v1/list-titles/?apiKey=9rpd8NLIeENAxsQeMCxt33h68sxWClnJykcn4n1X&limit=100';
+const url = 'https://api.watchmode.com/v1/list-titles/?apiKey=teNzOyLosMVfKpJcle1fpVDEB3Er7pEtuouvuUZq&limit=100';
 const initialState = [];
 const reducerForMovies = (state = initialState, action) => {
   switch (action.type) {
