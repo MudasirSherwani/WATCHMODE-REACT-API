@@ -1,0 +1,142 @@
+.list-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12vh;
+}
+
+.context {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  width: 100vw;
+  background-color: #de4782;
+  margin-top: 10%;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 0.4fr);
+  justify-content: center;
+  align-content: center;
+  width: 100vw;
+  margin-right: 2vw;
+}
+
+ul {
+  list-style: none;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  border-radius: 3px;
+  width: 50vw;
+  height: 20vh;
+  text-align: right;
+}
+
+.hidden-div:nth-child(1n) { background-color: #cd4076; }
+.hidden-div:nth-child(6n) { background-color: #de4782; }
+.hidden-div:nth-child(3n + 1) { background-color: #f65092; }
+.hidden-div:nth-child(5n) { background-color: #de4782; }
+
+.movie-icon {
+  height: 20px;
+  width: 20px;
+  margin-top: 3px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.title-home {
+  font-family: Poppins, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 2px;
+  margin-right: 5px;
+  color: rgb(255, 255, 255);
+}
+
+.list-container > select {
+  margin-top: 6vh;
+  width: 50vw;
+  height: 40px;
+  font-size: 14px;
+  border-radius: 5px;
+  text-align: center;
+  border: 3px solid #f7619a;
+  background-color: #ec4c8a;
+  color: white;
+}
+
+option {
+  color: white;
+  background-color: #ec4c8a;
+}
+
+.item .year-home {
+  color: white;
+  margin: 2px;
+  font-size: 10px;
+  font-weight: 100;
+  align-items: end;
+}
+
+/* Desktop version */
+@media only screen and (min-width: 768px) {
+  .context {
+    margin-top: 2%;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(5, 0.4fr);
+    justify-content: center;
+    align-content: center;
+    width: 100vw;
+  }
+
+  .container1 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .hidden-div {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  .item {
+    width: 20vw;
+    height: 30vh;
+  }
+
+  .hidden-div:nth-child(2n) { background-color: #cd4076; }
+  .hidden-div:nth-child(3n) { background-color: #de4782; }
+
+  .title-home {
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    margin-top: 10px;
+    margin-right: 8px;
+    color: rgb(255, 255, 255);
+  }
+
+  .list-container {
+    margin-top: 5%;
+  }
+}

@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Check Changes in the Detail Page 1`] = `
+<div
+  className="table-container"
+  data-testid="detailpagecontainer"
+>
+  <div
+    className="detail-items"
+  >
+    <div
+      className="header-data"
+    >
+      <img
+        alt="Movie Poster"
+        className="poster"
+      />
+      <div
+        className="title-trailer"
+      >
+        <h2
+          className="title"
+        >
+          Movie Name
+        </h2>
+        <a
+          href="/"
+          onClick={[Function]}
+        >
+          <button
+            className="trailer"
+            type="button"
+          >
+             Watch Movie! 
+          </button>
+        </a>
+      </div>
+    </div>
+    <table
+      className="table"
+    >
+      <tbody>
+        <tr>
+          <th
+            scope="col"
+          >
+            Content Type
+          </th>
+          <td />
+        </tr>
+        <tr>
+          <th
+            scope="col"
+          >
+            User Rating
+          </th>
+          <td />
+        </tr>
+        <tr>
+          <th
+            scope="col"
+          >
+            Release Date
+          </th>
+          <td />
+        </tr>
+        <tr>
+          <th
+            scope="col"
+          >
+            Run Time
+          </th>
+          <td>
+            .0 min
+          </td>
+        </tr>
+        <tr>
+          <th
+            scope="col"
+          >
+            Imb ID
+          </th>
+          <td />
+        </tr>
+        <tr>
+          <th
+            scope="col"
+          >
+            Original Language
+          </th>
+          <td />
+        </tr>
+        <tr>
+          <th
+            scope="col"
+          >
+            US Rating
+          </th>
+          <td />
+        </tr>
+        <tr>
+          <th
+            scope="col"
+          >
+            Year
+          </th>
+          <td />
+        </tr>
+      </tbody>
+    </table>
+    <h3
+      className="desc"
+    >
+      Descriptions
+    </h3>
+    <h4 />
+  </div>
+</div>
+`;

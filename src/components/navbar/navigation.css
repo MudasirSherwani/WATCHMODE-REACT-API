@@ -1,0 +1,75 @@
+.navigation {
+  background-color: #ec4c8a;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  height: 10%;
+  justify-content: space-between;
+  padding: 3px;
+  top: 0;
+}
+
+.back-btn-area {
+  margin-left: 15px;
+  width: 20%;
+}
+
+.app-heading {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  width: 50%;
+  color: white;
+  text-decoration: none;
+}
+
+.feature-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  font-size: 18px;
+  width: 30%;
+}
+
+.icon-btn {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  color: white;
+  display: flex;
+  gap: 10px;
+}
+
+/* Desktop version */
+@media only screen and (min-width: 768px) {
+  .navigation {
+    gap: 25px;
+    top: 0;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .app-heading {
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 24px;
+  }
+
+  .icon-btn {
+    width: 28px;
+    height: 28px;
+  }
+
+  .feature-icons {
+    gap: 50px;
+  }
+}

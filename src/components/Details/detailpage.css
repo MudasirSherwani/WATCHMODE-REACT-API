@@ -1,0 +1,164 @@
+.detail-parent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100vw;
+  padding-top: 10vh;
+  align-items: center;
+}
+
+body {
+  background-color: #cf4278;
+}
+
+.detail-items {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #cf4278;
+  border-radius: 5px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.header-data {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+  justify-content: center;
+}
+
+.title-trailer {
+  padding: 10px;
+}
+
+.title {
+  font-family: Poppins, sans-serif;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+}
+
+.poster {
+  width: 30%;
+  height: 30%;
+  border-radius: 10px;
+  border: 2px solid rgb(255, 255, 255);
+  padding: 1px;
+  margin-left: 8%;
+}
+
+h1 {
+  margin-top: -10px;
+  font-size: 15px;
+}
+
+.table {
+  width: 99%;
+  background-color: #cf4278;
+  border: none;
+  margin: auto;
+  border-collapse: collapse;
+}
+
+tr {
+  height: 65px;
+  border: none;
+}
+
+tr:nth-child(odd) { background-color: #e74987; }
+
+th {
+  color: white;
+  text-align: left;
+  padding-left: 5%;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+}
+
+td {
+  color: white;
+  text-align: right;
+  padding-right: 5%;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+}
+
+.trailer {
+  color: black;
+  margin: 20px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-style: italic;
+  height: 30px;
+  width: 100px;
+}
+
+.desc {
+  color: white;
+  font-weight: 300;
+  text-align: justify;
+  margin: 10px;
+  font-size: 16px;
+}
+
+h4 {
+  color: white;
+  font-weight: 300;
+  margin: 10px;
+  margin-bottom: 30px;
+}
+
+/* desktop version */
+@media only screen and (min-width: 768px) {
+  .detail-parent {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    margin-top: 70px;
+  }
+
+  .detail-items {
+    width: 100vw;
+    height: 150vh;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .poster {
+    width: 15vw;
+    height: 50vh;
+    border-radius: 10px;
+    border: 4px solid rgb(255, 255, 255);
+    margin-top: 20px;
+    padding: 1px;
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    margin-top: -10px;
+    font-size: 20px;
+  }
+
+  .table {
+    width: 40%;
+    border-radius: 0 0 10px 10px;
+    font-size: 20px;
+  }
+
+  h4 {
+    font-weight: 200;
+    margin-bottom: 150px;
+  }
+}
