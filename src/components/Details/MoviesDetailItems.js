@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { PropTypes } from 'prop-types';
 import './detailpage.css';
 
@@ -21,9 +22,15 @@ const MoviesDetailItems = (props) => {
   return (
     <div className="table-container" data-testid="detailpagecontainer">
       <div className="detail-items">
-        <h2 className="title">{title}</h2>
-        <img className="poster" src={poster} alt="Movie Poster" />
-        <a href={trailer} className="trailer">Watch Movie</a>
+        <div className="header-data">
+          <img className="poster" src={poster} alt="Movie Poster" />
+          <div className="title-trailer">
+            <h2 className="title">{title}</h2>
+            <Link to={trailer}>
+              <button type="button" className="trailer"> Watch Movie! </button>
+            </Link>
+          </div>
+        </div>
         <table className="table">
           <tbody>
             <tr>
