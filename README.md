@@ -65,8 +65,7 @@ The details page has data about the details of the movie and users can see relea
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Space Traverlers Hub](https://watchmode-react.netlify.app/)
-
+- [WATCHMODE-REACT-API](https://development--watchmode-react.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
