@@ -8,20 +8,34 @@ exports[`Check Changes in the Detail Page 1`] = `
   <div
     className="detail-items"
   >
-    <h2
-      className="title"
+    <div
+      className="header-data"
     >
-      Movie Name
-    </h2>
-    <img
-      alt="Movie Poster"
-      className="poster"
-    />
-    <a
-      className="trailer"
-    >
-      Watch Movie
-    </a>
+      <img
+        alt="Movie Poster"
+        className="poster"
+      />
+      <div
+        className="title-trailer"
+      >
+        <h2
+          className="title"
+        >
+          Movie Name
+        </h2>
+        <a
+          href="/"
+          onClick={[Function]}
+        >
+          <button
+            className="trailer"
+            type="button"
+          >
+             Watch Movie! 
+          </button>
+        </a>
+      </div>
+    </div>
     <table
       className="table"
     >
