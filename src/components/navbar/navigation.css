@@ -44,7 +44,7 @@
   gap: 10px;
 }
 
-/* for desctop version */
+/* Desktop version */
 @media only screen and (min-width: 768px) {
   .navigation {
     gap: 25px;

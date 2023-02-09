@@ -45,7 +45,10 @@ ul {
 .title-home {
   font-family: Poppins, sans-serif;
   font-size: 12px;
+  font-weight: 100;
   margin-top: 3px;
+  margin-left: 2px;
+  margin-right: 2px;
   color: rgb(255, 255, 255);
 }
 
@@ -66,7 +69,7 @@ ul {
   border: 3px solid #ec4c8a;
 }
 
-/* for desctop version */
+/* Desktop version */
 @media only screen and (min-width: 768px) {
   .input {
     text-indent: 20px;
@@ -120,10 +123,13 @@ ul {
     text-align: center;
   }
 
-  .title {
+  .title-home {
     font-family: Poppins, sans-serif;
     font-size: 16px;
-    margin-top: 20px;
-    color: rgb(94, 74, 74);
+    font-weight: 100;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: rgb(255, 255, 255);
   }
 }
