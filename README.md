@@ -7,6 +7,9 @@ The web application has several pages:
 Home page with a list of years that could be filtered by year parameters. Users can view movie titles according to the selected year.
 The details page has data about the details of the movie and users can also watch its trailer.
 
+<img src="images/watchmode-mockup.jpg" raw=true alt="Website Mockup" style="margin-right: 10px;"/>
+
+
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
