@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
+import { v4 as uuidv4 } from 'uuid';
 import { CallMoviesApi } from '../../redux/fetch-movies-titles';
 import MoviesTitleItems from './MoviesTitleItems';
 import './homepage.css';
@@ -21,16 +22,16 @@ const MoviesTitle = () => {
   const distinctYears = [...new Set(moviesStat.map((x) => x.year))];
   return (
     <div>
-      <did className="list-container">
+      <div className="list-container">
         <select onChange={handleYearSelection}>
           <option value={2023}>-- Select Movie Year --</option>
           {distinctYears.map((item) => (
-            <option key={item} value={item}>
+            <option key={uuidv4()} value={item}>
               {item}
             </option>
           ))}
         </select>
-      </did>
+      </div>
       <div className="context">
         <div className="container">
           {filteredData.map((titles) => (
