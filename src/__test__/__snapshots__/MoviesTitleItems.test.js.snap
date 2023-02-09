@@ -22,19 +22,14 @@ exports[`Check Changes in the Movies Title 1`] = `
           "color": undefined,
         }
       }
-      viewBox="0 0 24 24"
+      viewBox="0 0 16 16"
       width={50}
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g>
-        <path
-          d="M0 0h24v24H0z"
-          fill="none"
-        />
-        <path
-          d="M2 3.993A1 1 0 0 1 2.992 3h18.016c.548 0 .992.445.992.993v16.014a1 1 0 0 1-.992.993H2.992A.993.993 0 0 1 2 20.007V3.993zm8.622 4.422a.4.4 0 0 0-.622.332v6.506a.4.4 0 0 0 .622.332l4.879-3.252a.4.4 0 0 0 0-.666l-4.88-3.252z"
-        />
-      </g>
+      <path
+        d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+        fillRule="evenodd"
+      />
     </svg>
     <h3
       className="title-home"
