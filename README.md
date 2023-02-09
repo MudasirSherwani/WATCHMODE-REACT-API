@@ -163,9 +163,8 @@ If you like this project please follow me on github and give stars to my repo.
 
 
 I would like to thanks Microverse to guide me to complete this project.
-Again i would like to thanks to:
-Nelson Sakwa on Behance for Design.
-WATCHMODE to provide me API link.
+I give appropriate credit to [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) the author of the [original design](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)).
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
