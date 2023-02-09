@@ -4,7 +4,7 @@ import renderer from 'react-test-renderer';
 import { Provider } from 'react-redux';
 import '@testing-library/jest-dom';
 import store from '../redux/configureStore';
-import MoviesTitleItems from '../components/homepage/MoviesTitleItems';
+import MoviesTitleItems from '../components/homePage/MoviesTitleItems';
 
 it('Check Changes in the Movies Title', () => {
   const tree = renderer.create(
